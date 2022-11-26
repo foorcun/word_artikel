@@ -1,5 +1,5 @@
 import 'package:artikel/app/data/datasource/word/i_word_dal.dart';
-import 'package:artikel/app/domain/word.dart';
+import 'package:artikel/app/domain/entity/word.dart';
 import 'package:artikel/injector.dart';
 import 'package:get/get.dart';
 

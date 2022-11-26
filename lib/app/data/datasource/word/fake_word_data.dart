@@ -1,4 +1,4 @@
-import 'package:artikel/app/domain/word.dart';
+import 'package:artikel/app/domain/entity/word.dart';
 
 class FakeWordData {
   List<Word> _listWord = [];

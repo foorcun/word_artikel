@@ -1,4 +1,4 @@
-import 'package:artikel/app/domain/word.dart';
+import 'package:artikel/app/domain/entity/word.dart';
 
 abstract class IWordDal {
   Stream<List<Word>> getWordList();

@@ -1,6 +1,6 @@
 import 'package:artikel/app/data/datasource/word/fake_word_data.dart';
 import 'package:artikel/app/data/datasource/word/i_word_dal.dart';
-import 'package:artikel/app/domain/word.dart';
+import 'package:artikel/app/domain/entity/word.dart';
 
 class FakeWordDal extends IWordDal {
   @override

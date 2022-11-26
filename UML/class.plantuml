@@ -6,4 +6,14 @@ Class Word{
     word : String?
     artikel : String?
 }
+
+Class GameSession{
+    documentId : String?
+    id : int?
+    words : List<Word>
+    dogru_sayisi : int?
+    
+}
+
+GameSession "1" *-- "n" Word
 @enduml
