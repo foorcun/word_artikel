@@ -1,0 +1,9 @@
+@startuml Hello Uml
+
+Class Word{
+    documentId : String?
+    id : int?
+    word : String?
+    artikel : String?
+}
+@enduml
